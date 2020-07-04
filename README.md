@@ -4,8 +4,9 @@ Script to be used as a CRON job in your server that get all orders from X days a
 
 All you have to do is change the value of the following variables: 
 
-- token (To give access to your Magento 2 API)
-- url (Your Web Site URL)
+- $token (To give access to your Magento 2 API)
+- $url (Your Web Site URL)
+- $daysAgo 
 
 
-Atention: The ENDPOINT that this script uses to access the Magento 2 API is '/rest/V1/orders', if yours is different, just change the string in the 'curl_init' request.
+Attention: The ENDPOINT that this script uses to access the Magento 2 API is '/rest/V1/orders', if yours is different, just change the $endPonint variable.
