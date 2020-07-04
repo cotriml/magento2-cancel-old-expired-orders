@@ -9,4 +9,4 @@ All you have to do is change the value of the following variables:
 - $daysAgo 
 
 
-Attention: The ENDPOINT that this script uses to access the Magento 2 API is '/rest/V1/orders', if yours is different, just change the $endPonint variable.
+Attention: The ENDPOINT that this script uses to access the Magento 2 API is '/rest/V1/orders', if yours is different, just change the $endpoint variable.
