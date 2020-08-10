@@ -36,7 +36,7 @@ if ($ordersToCancel->total_count > 0) {
     return;
 }
 
-// Loop to cancelar orders found 
+// Loop to cancel orders found 
 foreach ($ordersToCancel as $order) {
 
     $orderId = $order->entity_id;
